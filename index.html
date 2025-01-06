@@ -97,6 +97,28 @@
         .center {
             text-align: center;
         }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #fff;
+            color: black;
+            border: none;
+            border-radius: 30%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s;
+        }
+        .whatsapp-button:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        .whatsapp-button i {
+            font-size: 24px;
+        }
 
         /* Media Queries for Responsive Design */
         @media (max-width: 768px) {
@@ -219,5 +241,10 @@
             &copy; 2025 Amirhossein Karbasian. All rights reserved.
         </footer>
     </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/989375533125" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
 </html>
